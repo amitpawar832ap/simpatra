@@ -1,0 +1,358 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+.wrapper{
+	width: 100%;
+	padding: 0 15px;
+	margin: 0px auto;
+}
+@media(min-width:1100px){
+    .wrapper{max-width:1170px; }
+}
+p {
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+a {
+	outline: none;
+	border: none;
+}
+.wrapper:before,
+.wrapper:after, 
+.wrapper-2:before,
+.wrapper-2:after {
+	content: " ";
+	display: table;
+}
+.wrapper:after, .wrapper-2:after {
+	clear: both;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color:#696d6e;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+    outline: line;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: normal;  
+}
+.text-center{text-align: center}
+.text-right{text-align: right}
+.text-left{text-align: left}
+.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.align-center{
+align-items: center;
+
+}
+.space-between{
+    justify-content: space-between;
+}
+.width-50{
+    width: 50%;
+}
+.header {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top: 50px;
+}
+.header .wrapper {
+	max-width: 100%;
+	padding: 0 60px;
+}
+.logo {
+	max-width: 300px;
+}
+.navigation ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 14px;
+}
+.navigation ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navigation li{list-style: none}
+.cart-icon {
+	width: 30px;
+	display: inline-block;
+    position: relative;
+}
+.total-number {
+	position: absolute;
+	display: inline-block;
+	width: 10px;
+	background: #8c155e;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 8px;
+	line-height: 10px;
+	right: 0;
+    font-weight: 700;
+}
+.banner {
+	position: relative;
+	padding: 300px 0;
+	background-color: #f77714;
+	color: #fff;
+	background-image: url(../images/bg-pattern.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.banner-text{
+    max-width: 700px;
+}
+.banner-text h1 {
+	font-size: 70px;
+	margin: 0 0 30px;
+    font-weight: 300;
+}
+.banner-text p {
+	font-size: 22px;
+	line-height: 1.6;
+	font-weight: 300;
+}
+.banner-text h1 span{font-weight: 700}
+.row-margin{
+    margin: 0 -15px;
+}
+.column-padding{
+    padding: 0 15px;
+}
+.width-50{
+    width: 50%;
+}
+.width-60{
+    width: 60%;
+}
+.width-40{
+    width: 40%
+}
+.directory h2 {
+	font-size: 40px;
+	color: #74a3bc;
+	margin: 0 0 30px;
+}
+.traffic-list h5 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+.doctor-image{
+    margin-top: -130px;
+    position: relative;
+}
+.best-seller {
+	background: #f5f5f5;
+    padding-bottom: 80px;
+}
+.laptop-screen {
+	margin-top: -330px;
+	position: relative;
+}
+.traffic {
+	padding: 100px 0;
+}
+.traffic .traffic-text {
+	max-width: 430px;
+}
+.powerful {
+	padding: 300px 0 200px;
+	background-color: #f77714;
+	color: #fff;
+	background-image: url(../images/bg-pattern.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.powerful h2 {
+	font-size: 50px;
+	font-weight: 300;
+    margin: 0 0 20px;
+}
+.powerful h2 span{font-weight: 700;}
+.powerful h3 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 0 40px;
+}
+.btn-web {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background: #961e59;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+}
+.btn-gray {
+	font-size: 20px;
+	line-height: 84px;
+	padding: 0;
+	width: 350px;
+}
+.best-seller hr {
+	border: 1px dashed;
+	margin: 0;
+	margin: 60px 0;
+}
+.laptop-screen {
+	text-align: center;
+}
+.laptop-screen img {
+	max-width: 90%;
+}
+.product-image img {
+	max-width: 275px;
+}
+.product-text h3 {
+	color: #ef450c;
+	font-weight: 700;
+	margin: 0 0 20px;
+}
+.product-text h3 span{color:#55595a }
+.product-text h3 {
+	color: #ef450c;
+	font-weight: 700;
+	margin: 0 0 20px;
+	font-size: 20px;
+}
+.product-text h4{
+   font-weight: 700;
+	color: #ef450c;
+	font-size: 20px; 
+}
+.product-text h5 {
+	font-size: 16px;
+	font-weight: 700;
+}
+.product-text .btn-web {
+	font-weight: 400;
+	background: #e95f38;
+	margin-top: 20px;
+}
+.whiteDiagonal {
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 0px;
+	border-bottom: 380px solid white;
+	border-left: 100vw solid transparent;
+}
+.banner {
+	position: relative;
+	overflow: hidden;
+}
+.whiteDiagonal-top {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0px;
+	border-top: 380px solid white;
+	border-right: 100vw solid transparent;
+}
+.powerful {
+	position: relative;
+	overflow: hidden;
+}
+@media(max-width:767px){
+    .header{top: 15px;}
+    .logo {
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+    .width-40{width: 100%}
+    .width-60 {width: 100%;}
+    .header .wrapper{padding: 0 15px;}
+    .banner{padding: 200px 0 100px}
+    .banner-text h1{font-size: 50px;}
+    .header{top:20px;}
+    .width-50{width: 100%}
+    .whiteDiagonal{
+        border-bottom: 70px solid white;
+    }
+    .whiteDiagonal-top{border-top: 70px solid white}
+    .powerful{padding: 100px 0}
+    .powerful h2{font-size: 30px;}
+    .powerful h3{font-size: 18px;}
+    .btn-gray {
+	font-size: 18px;
+	line-height: 60px;
+	padding: 0;
+	
+	max-width: 100%;
+}
+    .traffic{padding: 50px 0}
+    .directory h2{font-size: 30px;}
+    .traffic-image {
+	margin-top: 30px;
+}
+    .directory {
+	padding-top: 50px;
+}
+    .laptop-screen {
+	margin-top: -100px;
+}
+    .doctor-image{margin-top: 0px;text-align: center}
+    .doctor-image img {
+	max-width: 200px;
+}
+    .traffic-image img{max-width: 90%}
+    .product-image img{max-width: 200px}
+    .best-seller hr{margin: 30px 0}
+    .product-text{margin-top: 30px;}
+    .best-seller{padding-bottom: 50px;}
+}
